@@ -7,17 +7,20 @@
     "eject": "expo eject"
   },
   "dependencies": {
-    "eslint": "^5.16.0",
     "expo": "^32.0.0",
     "firebase": "^6.0.2",
     "react": "16.5.0",
     "react-native": "https://github.com/expo/react-native/archive/sdk-32.0.0.tar.gz",
+    "react-native-router-flux": "^4.0.6",
     "react-redux": "^6.0.1",
     "redux": "^4.0.1",
-    "redux-thunk": "^2.3.0"
+    "redux-thunk": "^2.3.0",
+    "save": "^2.3.3"
   },
   "devDependencies": {
-    "babel-preset-expo": "^5.0.0"
+    "babel-preset-expo": "^5.0.0",
+    "eslint": "^5.16.0",
+    "eslint-plugin-react": "^7.13.0"
   },
   "private": true
 }
