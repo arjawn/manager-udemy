@@ -9,7 +9,6 @@ import {
 const INITIAL_STATE = { email: '', password: '', user: null, error: '', loading: false };
 
 export default (state = INITIAL_STATE, action) => {
-    console.log(action);
 
     switch (action.type) {
         case EMAIL_CHANGED:
@@ -28,5 +27,4 @@ export default (state = INITIAL_STATE, action) => {
 };
 
 // decide if there is an error with auth, show spinner, responsible for all things authentication
-// to troubleshoot add console.log('action!') under case EMAIL_CHANGED;
 // To clear out user password you can add password: '' after error: in LOGIN_USER_FAIL
